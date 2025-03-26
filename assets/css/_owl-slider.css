@@ -1,0 +1,75 @@
+.owl-carousel-wrapper {
+    margin-top: 328px;
+}
+
+.p-title {
+    font-size: 14px;
+    color: #3c3b3b;
+}
+
+.p-price {
+    font-size: 14px;
+    color: #3c3b3b;
+}
+
+.p-img {
+    max-width: 140px;
+    align-self: center;
+}
+
+.custom-card {
+    border: none;
+    border-radius: 0;
+}
+
+.custom-card:hover {
+    box-shadow: 0 0 10px 3px #efefef;
+    z-index: 2;
+}
+
+.owl-carousel-inner {
+    padding: 4px;
+}
+.offerss{
+    background-color: red;
+    color: #fff;
+    padding: 1px;
+    border-radius: 4px;
+}
+.owl-nav {
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    display: flex;
+}
+.owl-carousel-brand .owl-nav{
+    top: 27px;
+}
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev {
+    width: 36px;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    left: -5px;
+}
+
+.owl-prev {
+    position: absolute;
+    right: -5px;
+}
+
+.owl-next span,
+.owl-prev span {
+    font-size: 66px;
+    background-color: #fff;
+    box-shadow: 0 0 12px 0px #c7c7c7;
+    display: block;
+}
+
+.owl-next,
+.owl-prev:hover {
+    background-color: #fff !important;
+    color: black !important;
+}

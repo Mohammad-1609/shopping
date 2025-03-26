@@ -1,0 +1,74 @@
+.login-form input {
+    border: 0;
+    border-bottom: 2px solid #efefef;
+    border-radius: 0;
+
+}
+
+.login-form label {
+    font-size: 14px;
+}
+
+#login-form h5 {
+    font-size: 16px;
+}
+
+#login-form .modal-footer a {
+    font-size: 14px !important;
+}
+
+.user {
+    vertical-align: -2px;
+}
+
+.loggin {
+    font-size: 15px;
+}
+
+.login-form input::-webkit-input-placeholder {
+    font-size: 10px;
+}
+
+input.email-input:focus {
+    box-shadow: 0 0 0 0 !important;
+    border-color: #cccc !important;
+}
+
+.pass-input:focus {
+    box-shadow: 0 0 0 0 !important;
+    border-color: #cccc !important;
+
+}
+
+.wrapper-login {
+    position: relative;
+    width: 100%;
+}
+
+.wrapper-login i#true {
+    position: absolute;
+    left: 4px;
+    font-size: 18px;
+    bottom: 5px;
+    color: #1ebd6e;
+    transition: all .5s ease;
+    opacity: 0;
+
+}
+
+.wrapper-login i#false {
+    position: absolute;
+    left: 4px;
+    font-size: 18px;
+    bottom: 5px;
+    color: #dd2424;
+    opacity: 0;
+}
+input.email-input:valid+i#true {
+    opacity: 1;
+    color: #28a745;
+}
+input.email-input:invalid~#false {
+    opacity: 1;
+    color: #dc3545;
+}

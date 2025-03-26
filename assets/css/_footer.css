@@ -1,0 +1,106 @@
+.news-later .row{
+    margin-top: -60px;
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.075);
+}
+.news-later-s1 h6 {
+    font-size: 16px;
+}
+.news-later-s1 p {
+    font-size: 13px;
+}
+.news-later-s2 p{
+    font-size: 14px;
+    line-height: 28px;
+}
+.input-news-later::-webkit-input-placeholder {
+    font-size: 13px;
+}
+.input-news-later{
+    border-radius:0!important;
+}
+.input-news-later:focus{
+    box-shadow: 0 0 0 0!important;
+    border-color: #aca9a9!important;
+}
+.news-later-s3 button{
+    font-size: 13px;
+}
+.main-section-footer h5{
+    font-size: 15px;
+    border-bottom: 3px solid #a09f9f;
+    padding: 10px;
+    display: inline-flex;
+}
+.footer-nav-custom li a{
+    font-size: 14px;
+    color: #4e4d4d;
+    transition: .5s ease;
+}
+.footer-nav-custom li a:hover{
+    color: #a09f9f;
+}
+.support-rules{
+    font-size: 39px;
+    color: rgb(52, 127, 240);
+}
+.tel-support p,
+.tel-support a{
+    font-size: 14px!important;
+    color: #4e4d4d;
+    text-decoration: none;
+}
+.social-icon p{
+    font-size: 14px;
+}
+.social-icon ul li a{
+    color: #afafaf;
+}
+.social-icon .telegram:hover{
+    color: rgb(45, 121, 206);
+    transition: 1s ease;
+}
+.social-icon .facebook:hover {
+    color: rgb(14, 80, 179);
+    transition: 1s ease;
+}
+.social-icon .twitter:hover {
+    color: rgb(34, 103, 206);
+    transition: 1s ease;
+}
+.social-icon .instagram:hover {
+    color: rgb(204, 40, 122);
+    transition: 1s ease;
+}
+.social-icon .rss:hover {
+    color: orange;
+    transition: 1s ease;
+}
+.brand-nav{
+    margin-bottom: 200px!important;
+}
+/* .main-section-footer {
+    position: absolute;
+} */
+a.dev{
+    position: absolute;
+    /* bottom: 50%; */
+    left: -213px;
+    font-size: 13px;
+    color: #4e4d4d;
+    overflow-x: hidden;
+    bottom: 0;
+    transition: color .3s ease;
+     /* transform: translate(-50%, -50%); */
+}
+a.dev:hover{
+    color: #a09f9f;
+
+}
+@media screen and (max-width:384px){
+    a.dev{
+      left: 83px;
+    }
+}
+.btn-Subscription:focus{
+    box-shadow: 0 0 0 0!important;
+}

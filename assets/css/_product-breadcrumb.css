@@ -1,0 +1,8 @@
+.custom-breadcrumb{
+    margin: 0;
+    background: transparent;
+    font-size: 14px;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+
+    content: ">";}

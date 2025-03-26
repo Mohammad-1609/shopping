@@ -1,0 +1,24 @@
+.banner-section-1 .banner-img-hover {
+    overflow: hidden;
+}
+
+.banner-section-1 .banner-img-hover img {
+    transition: 1.5s ease-in;
+}
+
+.banner-section-1 .banner-img-hover:hover img {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width:360px) {
+
+    .b-3,
+    .b-4 {
+        display: none;
+    }
+    .banner-img-1,
+    .banner-img-2 {
+margin-top: 10px;
+
+    }
+}
