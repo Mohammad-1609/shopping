@@ -666,7 +666,7 @@ input.email-input:invalid~#false {
     border-color: transparent;
 }
 
-.offers-details a {
+.offers-details  {
     font-size: 16px;
     color: #9891ff;
 }
